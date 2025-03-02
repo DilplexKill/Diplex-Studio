@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+h2 {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.navbar{
+    background-color: rgba(167, 142, 0, 0.8);
+    
+}
+
+.navbar-toggler{
+    background-color: white;
+    color:white;
+}
+
+
+.name{
+    color: white;
+    
+}
+.name:hover
+{
+    color : white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color:white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.coltext{
+    background-color: rgba(46, 45, 45, 0.8);
+    border-radius: 10px;
+}
+
+
+
+.hero-section {
+    background: url('/Assets/images/Image Quest System version 2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.imgIm{
+    height: 400px;
+    box-shadow: -10px -10px 20px  rgba(51, 4, 21, 0.8), 
+                10px 10px 20px  rgba(51, 4, 21, 0.8);;      
+}
+
+
+.presentation {
+    width: 100%;
+    /*background-color:rgba(255, 255, 255, 0.8);*/
+    background-image: url("/Assets/images/BANNER.png");
+    background-size: cover;
+    padding: 50px 0; /* Ajoute du padding pour un meilleur rendu */
+    text-align: center;
+    color: rgba(51, 4, 21, 0.8)
+}
+
+.propos{
+    margin: 0 auto;
+    padding:10px;
+    background-color: rgba(46, 45, 45, 0.8);
+    border-radius: 10px;
+    border: 10px
+}
+
+.description{
+    color:white;
+    font-size: 1.2rem;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+.portefolio{
+    background-color:rgba(51, 4, 21, 0.8);
+}
+
+.lead{
+    color:white;
+    font-size: 1.2rem;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.btnPorto{
+    margin-top: 10px;
+}
+
+/*--------------------------------------------------------portfoliophp----------------------------------------------*/
+
+.bodySection{
+    background-image: url('/Assets/images/2238239.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imgPortfolio{
+    margin-top: 20px;
+}
+
+/*---------------------------------------------------fenetre youtube---------------------------------------------------------*/
+/* Style pour la fenêtre de la vidéo YouTube */
+.youtube-window {
+    background-color: #000;            /* Fond noir pour rappeler l'interface YouTube */
+    border: 3px solid #fcc100;           /* Bordure rose */
+    border-radius: 8px;                  /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée pour un effet "lifté" */
+    overflow: hidden;                  /* Pour que les coins arrondis s'appliquent à l'iframe */
+}
+
+/* Supprime la bordure par défaut de l'iframe et applique le rayon */
+.youtube-window iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Style pour le bouton qui redirige vers ta chaîne YouTube */
+.youtube-btn {
+    background-color: #b69b00;           /* Couleur rose */
+    border: none;
+    border-radius: 50px;                 /* Forme arrondie */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.youtube-btn:hover {
+    background-color: #ffe600;
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------footer------------------------------------------------------*/
+.linkReseau {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px; /* Espacement horizontal entre les liens */
+    transition: color 0.3s ease;
+}
+
+.linkReseau:hover {
+    color: #ff69b4; /* Change la couleur au survol (rose) */
+}
