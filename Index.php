@@ -26,7 +26,7 @@
     
 
         <!-- Feuille de style personnalisée -->
-    <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
 </head>
 <body class="bodySection">
@@ -59,7 +59,7 @@
             <div class="col-md-12">
                 <!-- Affichage de l'image principale depuis la BDD -->
                 <img 
-                    src="./Assets/images/Capture d’écran 2025-03-02 185417.png" 
+                    src="./Capture d’écran 2025-03-02 185417.png" 
                     class="img-fluid rounded imgIm" 
                     alt="Maquilleuse SFX - Portrait"
                 />
@@ -117,7 +117,7 @@
                     <!-- Affichage des 3 dernières images -->
                     <a href="" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="./Assets/images/QuestSystemImage.jpg"
+                        src="./QuestSystemImage.jpg"
                         class="img-fluid rounded"
                         alt="Pluging QuestSystem"
                     />
@@ -127,7 +127,7 @@
                     <!-- Affichage des 3 dernières images -->
                     <a href="" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="./Assets/images/image inventory System.jpg"
+                        src="./image inventory System.jpg"
                         class="img-fluid rounded"
                         alt="Extension Inventory System"
                     />
