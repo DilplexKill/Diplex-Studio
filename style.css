@@ -53,7 +53,7 @@ h2 {
 
 
 .hero-section {
-    background: url('/Assets/images/Image Quest System version 2.jpg') no-repeat center center;
+    background: url('./Image Quest System version 2.jpg') no-repeat center center;
     background-size: cover;
     height: 600px;
     display: flex;
@@ -73,7 +73,7 @@ h2 {
 .presentation {
     width: 100%;
     /*background-color:rgba(255, 255, 255, 0.8);*/
-    background-image: url("/Assets/images/BANNER.png");
+    background-image: url("./BANNER.png");
     background-size: cover;
     padding: 50px 0; /* Ajoute du padding pour un meilleur rendu */
     text-align: center;
@@ -112,7 +112,7 @@ h2 {
 /*--------------------------------------------------------portfoliophp----------------------------------------------*/
 
 .bodySection{
-    background-image: url('/Assets/images/2238239.jpg');
+    background-image: url('./2238239.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
